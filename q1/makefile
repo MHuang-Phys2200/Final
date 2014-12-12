@@ -21,4 +21,4 @@ clean:
 	rm -f *.o *~ mc-se
 
 veryclean: clean
-	rm -f res mc-se1.png
+	rm -f res

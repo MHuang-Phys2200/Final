@@ -1,7 +1,7 @@
 unset key
-set title 'Volume Vs n'
-set xlabel ''
-set ylabel ''
+set title 'Volume Vs Parameter n'
+set xlabel 'Parameter n'
+set ylabel 'Volume'
 
 set term png
 set output "mc-se.png"
