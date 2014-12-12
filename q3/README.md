@@ -7,7 +7,7 @@ Summation(1/k^4) = pi^4/90
 
 machine epsilon is the value that is small enough that cannot be represented by a floating point variable. ( where 1 + machine epsilon = 1)
 
-* **Process**
+* **Approach**
 
 The process for finding machine epsilon is to keep dividing a floating variable by 2 until 1 + variable = 1. A common problem with floating point variables arises When adding the values of the series starting from k=1. The prblem is for values farther from 0, machine epsilon is larger. 
 
