@@ -5,7 +5,9 @@ This problem asked for the dimensionless frequency that a rigid pendulum looses 
 
 d(phi)/d(tau) = x
 
-dx/d(tau) = -(1-a/l * omega^2 sin(omega tau))sin(phi)        a/l = 0.01
+dx/d(tau) = -(1-a/l * omega^2 sin(omega tau))sin(phi)        
+
+a/l = 0.01
 
 phi(0) = 0.99*pi phi'(0) = 0
 
