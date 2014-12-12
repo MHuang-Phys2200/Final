@@ -1,0 +1,9 @@
+unset key
+set title 'Volume Vs n'
+set xlabel ''
+set ylabel ''
+
+set term png
+set output "mc-se.png"
+
+p [0:9] [0:32] "res" u 2:3 w l

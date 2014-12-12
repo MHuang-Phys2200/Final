@@ -1,0 +1,10 @@
+unset key
+set style data line
+set title 'Pendulum Angle w/ the vertical axis Vs Time'
+set xlabel 'Time'
+set ylabel 'Vertical Angle'
+
+set term png
+set o "pend.png"
+
+p [] [] "res1" u 1:2 w l

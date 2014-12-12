@@ -1,0 +1,10 @@
+unset key
+set style data line
+set title 'Pendulum Angle w/ the vertical axis Vs Time (Unstable)'
+set xlabel 'Time'
+set ylabel 'Vertical Angle'
+
+set term png
+set o "pend-unstable.png"
+
+p [] [0:] "res3" u 1:2 w l
